@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re3aya</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"> -->
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <div class="setting-box">
+        <div class="icon-setting">
+            <i class="fa fa-gear" id="op"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-list">
+                <h4>Colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="aqua"></li>
+                    <li data-color="#ff9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03a9f4"></li>
+                </ul>
+            </div>
+
+            <div class="option-list">
+                <h5>Random Background</h5>
+                <div class="random">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+
+            <div class="option-list">
+                <h5>Show Bullets</h5>
+                <div class="Bullets">
+                    <span class="yes active" data-bullets="yes">Yes</span>
+                    <span class="no" data-bullets="no">No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+
+
+    <div class="landing">
+        <div class="container">
+            <div class="header">
+                <div class="logo">Re3aya</div>
+                <ul>
+                    <li><a href="#" class="active" data-section=".about-us">About Us</a></li>
+                    <li><a href="#" data-section=".skills">Our Skills</a></li>
+                    <li><a href="#" data-section=".gallery">Our Gallery</a></li>
+                    <li><a href="#" data-section=".timeline">Timeline</a></li>
+                    <li><a href="#" data-section=".features">Features</a></li>
+                    <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                </ul>
+                <button class="menu">
+                    <span class="m"></span>
+                    <span class="m"></span>
+                    <span class="m"></span>
+                </button>
+            </div>
+
+            <div class="introduction-text">
+                <h1>Health Care for You </h1>
+                <p>We are Re3aya Team We are happy to serve you, we are always available to provide health care for You</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>We are Re3aya Team We are happy to serve you, we are always available to provide health care for You We are Re3aya Team We are happy to serve you, we are always available to provide health care for You</p>
+            </div>
+            <div class="image-box">
+                <img src="images/Illustration 1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">Doctor</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Nurse</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Blood donate</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">analysis</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="images/01.jpg" alt="Image One">
+                <img src="images/02.jpg" alt="Image Two">
+                <img src="images/03.jpg" alt="Image Three">
+                <img src="images/04.jpg" alt="Image Four">
+                <img src="images/05.jpg" alt="Image Five">
+                <img src="images/06.png" alt="">
+                <img src="images/07.jpg" alt="">
+                <img src="images/08.jpg" alt="">
+                <img src="images/09.jpg" alt="">
+                <img src="images/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi
+                            quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                            placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi
+                            quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                            placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2016</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi
+                            quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                            placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi
+                            quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                            placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start Features -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+          <div class="feat-box">
+            <img src="images/Icon_01.png" alt="">
+            <h4>Development</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/Icon_02.png" alt="">
+            <h4>Marketing</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/Icon_03.png" alt="">
+            <h4>Hosting</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/Icon_04.png" alt="">
+            <h4>Mobile Develope</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/Icon_05.png" alt="">
+            <h4>Cloud and Servers</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/Icon_06.png" alt="">
+            <h4>Seo</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!-- End Features -->
+  
+      <!-- Start Testimonials -->
+      <div class="testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="ts-box">
+            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+            <div class="person-info">
+              <!-- <img src="https://placehold.it/80/DDD" alt=""> -->
+              <h4>Ahmed Mosaad</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+            <div class="person-info">
+              <!-- <img src="https://placehold.it/80/EEE" alt=""> -->
+              <h4>Mohamed Ibrahim</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+            <div class="person-info">
+              <!-- <img src="https://placehold.it/80/AAA" alt=""> -->
+              <h4>Sherief Ashraf</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+      <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="">
+            <div class="left">
+              <input type="text" placeholder="Your Name" name="username">
+              <input type="text" placeholder="Your Phone" name="phone">
+              <input type="email" placeholder="Your Email" name="email">
+              <input type="text" placeholder="Subject" name="subject">
+            </div>
+            <div class="right">
+              <textarea name="message" placeholder="Your Message"></textarea>
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- End Contact Us -->
+  
+      <!-- Start Footer -->
+      <div class="footer">Created With Love By Ali Alabdy</div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
